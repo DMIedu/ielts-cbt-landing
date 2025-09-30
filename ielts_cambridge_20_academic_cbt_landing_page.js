@@ -265,7 +265,7 @@ function IELTSReadingPractice() {
             <div className="animate-fade-in">
               <Card>
                 <CardHeader className="pb-2">
-                  <CardTitle className="text-lg">Passage 1</CardTitle>
+                  <CardTitle className="text-lg">DMI Passage 1</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4 leading-7">
                   {PASSAGE.split("\n\n").map((p, i) => (
@@ -441,3 +441,4 @@ document.head.appendChild(style);
 // Mount
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<IELTSReadingPractice />);
+
